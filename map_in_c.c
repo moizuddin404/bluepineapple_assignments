@@ -53,7 +53,7 @@ void printmap(){
 
 int main(){
     insert("moiz", 4);
-    insert("shaikh", 6);
+    insert("mshaikh", 6);
     insert("arif", 4);
 
     int ans = get("arif");
