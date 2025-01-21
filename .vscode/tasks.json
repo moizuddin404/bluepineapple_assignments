@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile C++ Program",
+            "type": "shell",
+            "command": "F:\\MinGW\\bin\\g++", // Adjust to your MinGW path
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Compiles the current C++ file."
+        },
+        {
+            "label": "Run and redirect output",
+            "type": "shell",
+            "command": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [
+                "<",
+                "C:\\Users\\Admin\\OneDrive\\Desktop\\Bluepineapple\\Programs\bluepineapple_assignments\\input.txt", // Ensure input.txt is in the same directory
+                ">",
+                "C:\\Users\\Admin\\OneDrive\\Desktop\\Bluepineapple\\Programs\bluepineapple_assignments\\output.txt" // Redirect output to output.txt
+            ],
+            "presentation": {
+                "reveal": "always" // Make sure the terminal output is visible
+            },
+            "problemMatcher": []
+        }
+    ]
+}

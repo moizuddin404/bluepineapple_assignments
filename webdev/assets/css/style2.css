@@ -1,0 +1,7 @@
+/* !important>inline>interna>external */
+
+.t2,
+th,
+td {
+    border: 1px solid black;
+}
