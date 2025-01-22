@@ -1,0 +1,14 @@
+.main-head {
+    color: orange;
+
+}
+
+.t1 {
+    border: 1px solid black;
+    width: 100%;
+    background-color: rgb(237, 232, 232);
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
