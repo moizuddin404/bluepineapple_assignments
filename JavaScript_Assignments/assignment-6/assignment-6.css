@@ -1,0 +1,10 @@
+#addbtn {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 200px;
+    height: 50px;
+    background-color: aquamarine;
+    color: darkslategrey;
+    border: 0px;
+    box-shadow: 10px salmon;
+}

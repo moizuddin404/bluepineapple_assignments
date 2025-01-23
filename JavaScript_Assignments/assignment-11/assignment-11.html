@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Countdown Timer</title>
+       
+
+    </head>
+
+    <body>
+        <h1 style="font: bolder 100px Times;text-align: center;">Countdown</h1>
+        <span id="timer" class="timer">
+            <p></p>
+        </span>
+    </body>
+    <script>
+        let time = 10;
+        let timer = setInterval(() => {
+            document.getElementById('timer').innerText = time;
+            time--;
+            if(time < -1){
+                clearInterval(timer);
+                document.getElementById('timer').innerHTML = "Times Up!";
+            }
+
+        }, 1000);
+    </script>
+
+</html>

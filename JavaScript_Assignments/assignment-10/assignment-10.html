@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dynamic Image Change</title>
+    <script src="assignment-10.js"></script>
+    <style>
+        .container{
+            height: 800px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .changeImage{
+            width: 100px;height: 50px;
+            border: none;
+            background-color: #fff;
+            box-shadow: 2px 2px gray;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="autumn-wallpaper.jpg" id="img1" alt="autumn-wallpaper" width="50%">
+        <button class="changeImage" id="btn" onclick="ChangeImage()">Change Image</button>
+        <button class="changeImage" id="btn2" onclick="advancedChange()">Advance Change</button>
+    </div>
+</body>
+</html>
