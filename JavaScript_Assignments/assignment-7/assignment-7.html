@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form Validation</title>
+        <script src="assignment-7.js"></script>
+        <link rel="stylesheet" href="assignment-7.css">
+    </head>
+    <body>
+        <h1>Welcome Aboard!</h1>
+        <div class="form-div">
+                <form onsubmit="return validateForm()">
+                    <label for="name" class="labl">Name</label><br>
+                    <input type="text" class="inp-bx" name="name" id="name">
+                    <span class="namespan" id="namespan" style="color: white;"></span>
+                    <br><br>
+                    <label for="email" class="labl">Email</label><br>
+                    <input type="email" name="email" id="email" class="inp-bx">
+                    <span class="emailspan" id="emailspan" style="color: white;"></span>
+                    <br><br>
+                    <label for="age" class="labl">Age</label><br>
+                    <input type="number" name="age" id="age" class="inp-bx" placeholder="optional">
+                    <span class="agespan" id="agespan" style="color: white;"></span>
+                    <br><br>
+                    
+                    <div class="button">
+                        <button class="btn" id="btn" type="submit" onsubmit="validateForm()">Join</button>
+                        <button type="reset" class="btn-rst">reset</button>
+                    </div>
+        
+                </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed black;
+    background-color: lightblue;
+
+}
+
+.highlight {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed black;
+    background-color: red;
+}
+
+.toggle {
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+}
+
+.toggle input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    left: 4px;
+    bottom: 5px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.toggle input:checked+.slider {
+    background-color: green;
+}
+
+.toggle input:checked+.slider::before {
+    transform: translateX(50px);
+}
+
+
+.tg {
+    margin-top: 20px;
+    width: auto;
+    height: 30px;
+}
