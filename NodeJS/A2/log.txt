@@ -1,0 +1,21 @@
+This is a log file
+this is added log
+this is added log
+this is added log
+this is added log
+this is added log 1
+this is added log 1
+this is added log
+this is added log
+this is added log
+this is added log
+this is added log
+this is added log
+this is added logWriting Using setTimeout
+
+this is added logWriting Using setTimeout
+
+this is added logWriting Using setTimeout
+
+this is added log
+Writing Using setTimeout
