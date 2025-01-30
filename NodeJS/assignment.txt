@@ -1,0 +1,133 @@
+Session 16 
+
+ 
+
+Assignment 1: Node.js Basics 
+
+Objective: Understand Node.js modules, require, exports, and the basics of creating a server. 
+
+Create a Node.js file called server.js: 
+
+Import the http module using require. 
+
+Create a server that listens on port 3000 and responds with "Welcome to Node.js!" for any request. 
+
+Create a module named helper.js: 
+
+Export a function getMessage() that returns "Hello from the helper module!". 
+
+Import helper.js into server.js and log the message in the console. 
+
+----------------------------------------------------------------- 
+
+Assignment 2: File System and Event Loop 
+
+Objective: Learn how to work with the file system, understand the event loop, and implement non-blocking code. 
+
+Use the fs module to: 
+
+Create a new file named log.txt with content: "This is a log file." 
+
+Append new logs to the file every time the script runs. 
+
+Simulate blocking vs. non-blocking: 
+
+Write a blocking function that reads log.txt synchronously and logs its content. 
+
+Write a non-blocking function that reads log.txt asynchronously and logs its content. 
+
+Use setTimeout, setImmediate, and process.nextTick to demonstrate how the event loop handles tasks. Add a console log to show their execution order. 
+
+----------------------------------------------------------------- 
+
+Assignment 3: Function Chaining and Promises 
+
+Objective: Practice chaining methods and working with promises. 
+
+Create a Calculator class: 
+
+Add methods add(num), subtract(num), multiply(num), and divide(num). 
+
+Each method should update the internal value and return this to allow chaining. 
+
+Include a getResult() method to retrieve the final result. 
+
+Example: 
+
+const calc = new Calculator(); 
+
+calc.add(5).subtract(2).multiply(3).divide(2).getResult(); // Output: 4.5 
+
+Implement a function fetchData() that: 
+
+Returns a promise simulating an API call with setTimeout. 
+
+Resolves with "Data fetched successfully" after 2 seconds or rejects with an error message if something goes wrong. 
+
+Use .then() and .catch() to handle the promise. 
+
+----------------------------------------------------------------- 
+
+Assignment 4: Async/Await and API Integration 
+
+Objective: Work with async/await and understand how to handle asynchronous operations in Node.js. 
+
+Modify the fetchData() function from Assignment 3: 
+
+Rewrite it using async/await. 
+
+Include error handling with try/catch. 
+
+Fetch data from a public API: 
+
+Use the node-fetch or axios package to fetch JSON data from https://jsonplaceholder.typicode.com/posts. 
+
+Write an async function getPosts() to:  
+
+Fetch the posts. 
+
+Log the first 5 posts with their title and body. 
+
+Simulate multiple API calls: 
+
+Fetch data from two different endpoints of the API in parallel (e.g., /posts and /comments). 
+
+Use Promise.all to wait for both responses and log the results. 
+
+----------------------------------------------------------------- 
+
+Assignment 5: Express and Middleware 
+
+Objective: Build a basic REST API using Express and implement middleware. 
+
+Set up an Express app: 
+
+Create routes for:  
+
+GET / – Respond with "Welcome to Express!" 
+
+POST /data – Accept JSON data and respond with "Data received." 
+
+GET /users – Respond with a list of users (mock data). 
+
+Create middleware: 
+
+Write a custom middleware to log the method and URL of every incoming request. 
+
+Use app.use() to apply it globally. 
+
+Error handling: 
+
+Add a 404 middleware to handle invalid routes and respond with a custom message. 
+
+Add an error-handling middleware to log errors and send a "Something went wrong!" response. 
+
+Bonus (Optional): 
+
+Connect the app to the https://jsonplaceholder.typicode.com API. 
+
+Add a route GET /external-posts that fetches posts from the external API and responds with the data. 
+
+----------------------------------------------------------------- 
+
+Note: Provide comments in the code to explain what each section does. 

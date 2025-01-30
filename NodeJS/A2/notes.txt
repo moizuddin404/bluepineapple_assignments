@@ -1,0 +1,37 @@
+The fs module enables interacting with file system 
+
+Callback: 
+You can't know when a user is going to click a button.
+So, you define an event handler for the click event. 
+This event handler accepts a function, which will be called when
+the event is triggered:
+
+document.getElementById('button').addEventListener('click', () => {
+  // item clicked
+});
+
+
+
+A callback is a simple function that's passed as a value to another 
+function, and will only be executed when the event happens. 
+We can do this because JavaScript has first-class functions, 
+which can be assigned to variables and passed around to other 
+functions (called higher-order functions)
+
+Why to use Non Blocking?
+As an example, let's consider a case where each request to a
+web server takes 50ms to complete and 45ms of that 50ms is database 
+I/O that can be done asynchronously. Choosing non-blocking asynchronous 
+operations frees up that 45ms per request to handle other requests. 
+This is a significant difference in capacity just by choosing to use 
+non-blocking methods instead of blocking methods.
+
+Zero delay scheduling with setTimeout(func, 0)
+(the same as setTimeout(func)) is used to schedule 
+the call “as soon as possible, but after the current script 
+is complete”.
+
+
+Promise in a way can be used for parallel execution!
+e.g. fetching a web page, fetching some data from api, fetching any images
+all these can be done parallely...
