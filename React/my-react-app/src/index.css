@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.countHead,
+.counterBtn {
+  align-items: center;
+  align-self: center;
+}
+
+.counterHead {
+  text-align: center;
+}
+
+.counterBtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #61DBFB;
+  color: white;
+  border-color: aliceblue;
+  font-weight: 500;
+  font-style: italic;
+  font-size: large;
+
+}
+
+.inpMessage {
+  margin-top: 5%;
+  width: 500px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: larger;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.namesList {
+  list-style: none;
+  font-size: larger;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+li {
+  padding: 15px;
+}
+
+.images {
+  width: 1600px;
+  height: 400px;
+}
+
+.userDetails {
+  margin-bottom: 20%;
+}
