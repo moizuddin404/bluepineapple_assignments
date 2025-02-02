@@ -1,0 +1,69 @@
+Counter with useState 
+
+Create a Counter Component that has a button to increase the count. 
+
+Display the count value. 
+
+Ensure it updates when clicked. 
+
+Clicking the button should increase the count. 
+
+Component should re-render with the new count. 
+
+Hint: Use useState. 
+
+ 
+
+Passing Data Between Sibling Components 
+
+Create two sibling components (Sender and Receiver) inside a parent component (App). 
+
+The Sender component should have an input field where the user types a message. 
+
+The message should be passed to the Receiver component and displayed. 
+
+Typing in Sender updates the message in Receiver. 
+
+Hint: Store the message in the parent component's state and pass a function as props to update the state. 
+
+ 
+
+List Rendering 
+
+Create a Todo List component that displays a list of tasks. 
+
+The tasks should be stored in an array of objects (with id and text). 
+
+Use map() to render them. 
+
+The app should display a list of predefined tasks. 
+
+Hint: Use map() to iterate over the array and render <li> elements. 
+
+ 
+
+useRef for Focusing an Input Field 
+
+Create an input field and a button. 
+
+When the button is clicked, the input field should be focused automatically. 
+
+Clicking the button moves the cursor inside the input field. 
+
+Hint: Use useRef and inputRef.current.focus(). 
+
+ 
+
+useEffect for API Calls 
+
+Create a component that fetches random user data from https://jsonplaceholder.typicode.com/users when the component mounts. 
+
+Display the name and email of the first user. 
+
+When the component loads, it should fetch and display user details. 
+
+Hint: Use useEffect and fetch(). 
+
+ 
+
+Note: Please add comments using  /** JSDoc Comments */ 
