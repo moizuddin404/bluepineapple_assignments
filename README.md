@@ -4,4 +4,4 @@
 1️⃣ These are first solved on Pen and Paper
 2️⃣ Then tested on the machine
 
-Kindly stop by and given your constructive advice to make my programs better! 😇😇
+Kindly stop by and give your constructive advice to make my programs better! 😇😇
