@@ -1,0 +1,56 @@
+[
+  {
+    "bookId": 1,
+    "bookName": "Zero to One",
+    "bookAuthor": "Peter Thiel",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXECshgAGhsJ1MGYhcBjIPaUwrPfWyA8Ph_g&s"
+  },
+  {
+    "bookId": 2,
+    "bookName": "Wings of Fire",
+    "bookAuthor": "APJ Abdul Kalam",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJiOZh8SRLSUk93q-rLUUdV5L50k4WHGJL_Q&s"
+  },
+  {
+    "bookId": 3,
+    "bookName": "Sherlock Holmes",
+    "bookAuthor": "Sir Arthur Conan Doyle",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIuMaojCBGPEehRaczV_VdGaHbcQ2DegCV1g&s"
+  },
+  {
+    "bookId": 4,
+    "bookName": "Treasure Island",
+    "bookAuthor": "RL Stevenson",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vq9IIwih4oq8r5eQTAOvkqh2EPifwZEbgA&s"
+  },
+  {
+    "bookId": 5,
+    "bookName": "Goosebumps",
+    "bookAuthor": "Stephen King",
+    "url": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1328868162i/125590.jpg"
+  },
+  {
+    "bookId": 6,
+    "bookName": "The Alchemist",
+    "bookAuthor": "Paulo Coelho",
+    "url": "https://m.media-amazon.com/images/I/61HAE8zahLL.jpg"
+  },
+  {
+    "bookId": 7,
+    "bookName": "Pride and Prejudice",
+    "bookAuthor": "Jane Austen",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0uG-djByLShtWzvFjObVikD15TOCSROQ-oFI6Yb9Asq5X5_hh"
+  },
+  {
+    "bookId": 8,
+    "bookName": "The Great Gatsby",
+    "bookAuthor": "Scott Fitzgerald",
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNPPSybCcg6-_Nar7ip6Q6YogySLbNpFOZWB-KyGj7Xo5xrEPo"
+  },
+  {
+    "bookId": 9,
+    "bookName": "Psychology of Money",
+    "bookAuthor": "Morgan Housel",
+    "url": "https://m.media-amazon.com/images/I/81Dky+tD+pL.jpg"
+  }
+]
